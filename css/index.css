@@ -1,0 +1,237 @@
+body {
+    min-width: 320px;
+    max-width: 480px;
+    margin: 0 auto;
+    font: 18px/1 Arial,sans-serif;
+    color: #666;
+    background-color: #f7f7f7;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+.header {
+    background-color: #e58f51;
+    font-size: 0;
+}
+.header h1 {
+    display: absolute;
+    text-indent: -100%;
+}
+.header img {
+    width: 100%;
+}
+.section-1 {
+    background-color: #e17b51;
+    overflow: hidden;
+}
+.package {
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 10px 1.5%;
+}
+.package-title {
+    display: block;
+}
+.package-title, .package-desc {
+    margin: 5px 0;
+    color: #fff;
+    /*text-shadow: 0 1px 0 #ccc;*/
+}
+.package-desc {
+    font-size: 15px;
+}
+.section-2 table {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.section-2 th {
+    width: 50%;
+    line-height: 40px;
+    text-align: center;
+    background-color: #e4e4e4;
+    /*text-shadow: 0 1px 0 #fff;*/
+}
+.section-2 td {
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+}
+.section-title {
+    text-align: center;
+    padding: 12px 0;
+}
+.section-title em {
+    display: inline-block;
+    font-size: 22px;
+    padding-left: 55px;
+    line-height: 36px;
+    background: url(http://img.wdjimg.com/thanksgiving/src/title-icon.png) 0 0 no-repeat;
+}
+.section-4 .section-title em {
+    background-position: 0 -36px;
+}
+.app-list {
+    padding: 0 1%;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.app-item {
+    float: left;
+    width: 48%;
+    margin: 1% ;
+    outline: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+}
+.icon-wrap {
+    float: left;
+    margin: 5px;
+    font-size: 0;
+}
+.icon-wrap img {
+    width: 48px;
+    height: 48px;
+}
+.app-title {
+    margin: 9px 0 3px 0;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+}
+.app-order {
+    float: left;
+    width: 60px;
+    font-size: 14px;
+    background-color: #3baa24;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+/* detail */
+.detail {
+    overflow: hidden;
+    font-size: 15px;
+    box-shadow: 0 0 1px 1px #ddd;
+}
+.detail .banner {
+    border-bottom: 2px solid #ddd;
+}
+.detail .banner img {
+    width: 100%;
+    display: block;
+}
+.detail-title {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    width: 53px;
+    height: 42px;
+    background: url(http://img.wdjimg.com/thanksgiving/src/title-icon.png) 0 -73px no-repeat;
+}
+.detail-title h2 {
+    margin: 10px 0;
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 22px;
+    color: #333;
+    font-size: 15px;
+    background: url(http://img.wdjimg.com/thanksgiving/src/detail-icon1.png) 0 -51px no-repeat;
+}
+.detail-order {
+    background-color: #fff;
+}
+.package-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.package-item {
+    display: block;
+    margin: 10px;
+}
+.package-item .title {
+    float: left;
+    color: #3BAA24;
+}
+.package-item .desc {
+    display: block;
+    overflow: hidden;
+}
+.order-input {
+    margin: 0 10px;
+    overflow: hidden;
+}
+.order-input input {
+    float: left;
+    width: 63%;
+    height: 21px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.order-input input:focus {
+    box-shadow: 0 0 3px rgba(59, 170, 36, 0.6), 0 1px 3px rgba(0, 0, 0, 0.05) inset;
+    border-color: #3BAA24;
+    outline: 0;
+}
+.submit {
+    float: right;
+    width: 30%;
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    background-color: #3baa24;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.doraemon {
+    width: 100%;
+    display: block;
+    margin: 10px 0 0;
+}
+.detail-desc {
+    margin: 0 10px;
+}
+.detail-desc .desc-section {
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.desc-section .title {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    padding-left: 25px;
+    line-height: 17px;
+    background: url(http://img.wdjimg.com/thanksgiving/src/detail-icon1.png) 0 0 no-repeat;
+}
+.desc-section ul {
+    margin: 8px 0 15px 0;
+    padding: 0 0 0 25px;
+    list-style-type: square;
+}
+.desc-section ul li {
+    padding: 4px 0;
+}
+.desc-section .detail-icon-2 {
+    background-position: 0 -17px;
+}
+.desc-section .detail-icon-3 {
+    background-position: 0 -34px;
+}
