@@ -249,7 +249,7 @@ var gameList = {
             iconNumber: 3,
             title: '活动小贴士',
             detail: [
-                '本次活动设置了感恩节·热身赛环节，正式活动开始前可以登录豌豆荚论坛(http://bbs.wandoujia.com)领取热身赛奖品。<a href="http://bbs.wandoujia.com/forum.php?mod=viewthread&tid=2443" style="color: #3BAA24;font-weight: bold;">点击去论坛</a>'
+                '本次活动设置了感恩节·热身赛环节，正式活动开始前可以登录豌豆荚论坛(http://bbs.wandoujia.com)领取热身赛奖品。<a href="http://bbs.wandoujia.com/forum.php?mod=viewthread&tid=2629" style="color: #3BAA24;font-weight: bold;">点击去论坛</a>'
             ]
         } ]
     },
